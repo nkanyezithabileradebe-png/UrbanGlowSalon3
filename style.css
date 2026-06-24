@@ -1,0 +1,108 @@
+/* Reset default browser styles */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6ccff;
+    color: #000000; 
+    line-height: 1.6;
+
+
+/* Header styling */
+header {
+    background-color: #800080; 
+    color: #000000; 
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li a{
+	    color:#000000;
+		text-decoration:none;
+		font weight:bold;
+}
+
+/* Section styling */ 
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #d8b4f8; 
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+    section h2 {
+    margin-bottom: 20px;
+    color: #000000; 
+}
+
+/* Buttons */
+button {
+    background-color: #9932cc; 
+    color: #000000; 
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ba55d3; /* lighter purple hover */
+}
+
+/* Services list */
+#services ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+/* Form styling */ 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+orm input, form select {
+    padding: 10px;
+    border: 1px solid #800080; 
+    border-radius: 5px;
+    color: #000000; 
+}
+
+/* Footer */
+footer {
+    background-color: #4b0082; 
+    color: #000000; 
+    text-align: center;
+    padding: 15px;
+}
+/* Responsive design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+
+
